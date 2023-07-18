@@ -1,0 +1,20 @@
+.error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+    background: linear-gradient(60deg, rgb(33, 33, 33), rgb(14, 14, 14), rgb(0, 0, 0));
+}
+
+.error-page .error-heading {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.error-page .error-message {
+    color: rgb(183, 183, 183);
+    font-size: 1.5rem;
+}
+

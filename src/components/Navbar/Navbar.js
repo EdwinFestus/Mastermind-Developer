@@ -2,6 +2,8 @@ import '../../index.css'
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHome, faPhone} from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
     return (
@@ -9,12 +11,12 @@ const Navbar = () => {
             <div class="nav-cont">
                 <div class="brand">Mastermind Dev</div>
                 <ul class="nav-list">
-                    <li><a href="/" class="active"><FontAwesomeIcon icon={faHome} className='icn' /> Home</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/about">More</a></li>
+                    <li><Link to="/" class="active"><FontAwesomeIcon icon={faHome} className='icn' /> Home</Link></li>
+                    <li><Link to="/services">Services</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/about">More</Link></li>
             </ul>
-            <a href="/contact" className="btn"><FontAwesomeIcon icon={faPhone}/>  Contact</a>
+            <Link to="/contact" className="btn"><FontAwesomeIcon icon={faPhone}/>  Contact</Link>
         </div>
         </nav >
     )

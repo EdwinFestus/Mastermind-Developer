@@ -2,6 +2,7 @@
 import '../../index.css'
 import './Hero.css'
 import img from '../../img/Admin-port.png'
+import { Link } from 'react-router-dom'
 
 
 const Hero = (props) => {
@@ -13,8 +14,8 @@ const Hero = (props) => {
                     <p className="sub-heading">A new way to grow your business, elevate your brand and grow your online presence
                         with Festus Edwin Femi.</p>
                     <div className="buttons">
-                        <a href="/" className="btn">Explore New</a>
-                        <a href="/" className="btn">Free Trial</a>
+                        <Link to="/" className="btn">Explore New</Link>
+                        <Link to="/About" className="btn">Free Trial</Link>
                     </div>
                 </div>
                 <div className='right'>
