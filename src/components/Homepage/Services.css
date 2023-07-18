@@ -1,0 +1,95 @@
+.services {
+    padding: 150px 0;
+    background:rgb(1, 3, 14); 
+}
+
+
+.services .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .sidebar {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.services .side-two {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+.services img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    margin: .5rem;
+    border: 1px solid #ffffff60;
+}
+
+
+.services .lists {
+    line-height: 2;
+    list-style: none;
+}
+
+
+
+.services .header {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 8rem;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.services .heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #eee;
+}
+
+
+.services .text {
+    font-size: 1rem;
+    color:rgb(207, 206, 206);
+    margin-bottom: .5rem;
+}
+
+.services .text.active {
+    color:rgb(201, 202, 202);
+}
+
+.services .btn {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 2rem;
+    background: #0e82bd;
+    padding: 18px 30px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    opacity: .8;
+    transition: .5s ease-in;
+    font-weight: bold;
+}
+
+.services .btn .ar {
+    margin-left: 20px;
+}
+
+.services .btn:hover {
+    opacity: 1;
+}
+
+

@@ -1,0 +1,90 @@
+.footer {
+    width: 100vw;
+    padding: 100px 0;
+    background: linear-gradient(to left, rgb(1, 3, 14), rgb(1, 19, 28));
+    position: relative;
+    bottom: 0;
+}
+
+.footer .footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer .left {
+    width: 60%;
+    display: flex;
+}
+
+.footer .items {
+    line-height: 2;
+    margin: 0 5rem 2rem 0;
+}
+
+.footer .left .header {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer .left a {
+    color: rgb(209, 209, 209);
+    width: 100%;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer .left a:hover {
+    color: #42c2d3;
+    text-decoration: underline;
+}
+
+
+/* -------- Right Section of the footer styling -------- */
+
+.footer .right {
+    width: 40%;
+    padding-left: 30px;
+}
+
+.footer .right a {
+    margin: 1.5rem
+}
+
+.footer .right .fb,
+.footer .right .ln,
+.footer .right .in,
+.footer .right .tw {
+    font-size: 2rem;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.footer .right .fb:hover {
+    color: #1f78cc;
+}
+
+.footer .right .ln:hover {
+    color: #2988e0;
+}
+
+
+.footer .right .in:hover {
+    color: #d34242;
+}
+
+.footer .right .tw:hover {
+    color: #42c2d3;
+}
+
+.footer .copyright {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    font-size: 1rem;
+    padding: 15px 0;
+    letter-spacing: 2px;
+    color: #eee;
+    text-align: center;
+    background: rgb( 1, 19, 28)
+}

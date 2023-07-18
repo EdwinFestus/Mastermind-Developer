@@ -1,0 +1,104 @@
+.testimonials {
+    padding: 100px 0;
+    background: #01131c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.testimonials .content {
+    display: flex;
+}
+
+.testimonials .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 7rem;
+    color: #fff;
+}
+
+
+
+.testimonials .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.075);
+    padding: 40px 30px;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.testimonials .card.active {
+    background:#fffffff5;
+}
+
+.testimonials .card.active .name{
+    color:#01131c;
+}
+
+.testimonials .card.active .profession {
+    color:rgb(71, 156, 247);
+}
+
+.testimonials .card.active .text {
+    color:rgb(66, 66, 66);
+}
+
+.testimonials .card .card-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 3px solid rgb(71, 156, 247);
+    margin-bottom: 1rem;
+}
+
+
+.testimonials .name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    color: rgb(255, 255, 255);
+}
+
+.testimonials .profession {
+    color:rgb(11, 159, 170);
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: italic;
+}
+
+.testimonials .card .text {
+    color: rgb(189, 189, 189);
+    line-height: 2;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+.testimonials .pagination {
+    display: flex;
+    justify-content:    center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.testimonials .dot, .testimonials .dot.active{
+    width: 20px;
+    height: 20px;
+    background: rgb(90, 90, 90);
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.testimonials .dot.active, .testimonials .dot:hover {
+    background: #fff;
+}
